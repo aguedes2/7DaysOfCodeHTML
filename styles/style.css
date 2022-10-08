@@ -87,6 +87,7 @@ body {
   font-weight: 500;
   
   border-radius: 8px;
+  cursor: pointer;
 }
 
 /* Seção Principal */
