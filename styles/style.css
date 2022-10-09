@@ -94,6 +94,31 @@ body {
 
 /* Seção Principal */
 
+/* Geral */
+.span {  
+  color: var(--main-color);
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 1rem;
+}
+
+.h1{
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 68px;
+  color: #101828
+}
+
+.paragrafo{
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-color);
+  width: 791px;
+}
+
 .principal{
 }
 
@@ -105,30 +130,6 @@ body {
   align-items: center;
   gap: 24px;
   
-}
-
-.sobre-nos span{
-  color: var(--main-color);
-  font-weight: 600;
-  line-height: 24px;
-  font-size: 1rem;
-}
-
-.sobre-nos h1{
-  display: block;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 68px;
-  color: #101828
-}
-
-.sobre-nos p{
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: center;
-  color: var(--text-color);
-  width: 791px;
 }
 
 /* Métricas */
@@ -169,3 +170,22 @@ body {
   color: var(--text-color);
   line-height: 24px;
 }
+
+/* Vagas */
+.vagas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 96px 0px 96px 0;
+  gap: 64px;
+}
+
+.vagas-texto {
+  display: block;
+  text-align: center;
+}
+
