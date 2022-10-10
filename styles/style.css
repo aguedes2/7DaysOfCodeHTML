@@ -80,7 +80,7 @@ body {
   color: var(--text-color);
 }
 
-#cadastrar{
+#cadastrar, .cadastrar{
   box-sizing: border-box;
   width: 112px;
   height: 44px;
@@ -91,7 +91,7 @@ body {
   color: #FFFFFF;
 }
 
-#cadastrar, #entrar{
+#cadastrar, #entrar, .cadastrar{
   font-weight: 500;  
   border-radius: 8px;
   cursor: pointer;
@@ -295,4 +295,62 @@ body {
 .comments-text .paragrafo{
   font-size: 1em;
   color: var(--text-color)
+}
+
+.rodape {
+  width: 100%;
+}
+
+.footer-container{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #F9FAFB;
+  padding: 6em 0;
+  gap: 2em;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.footer-content-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25em;
+  margin-bottom: 2.5em;
+}
+
+.footer-content-head h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 2.25em;
+  font-weight: 600;
+  color: var(--dark-grey-text);
+  letter-spacing: -0.02em;
+}
+
+.footer-content form{
+  display: flex;
+  gap: 1em;
+}
+
+.input-email{
+  width: 22.5em;
+  border-radius: 0.5em;
+  border: 1px solid #f6f8f9;
+  padding-left: 1.2em;
+}
+
+.input-email:focus {
+  outline: none;
+}
+
+.copyright {
+  font-weight: 400;
+  color: #98A2B3;
 }
